@@ -1,0 +1,5 @@
+paddding on container not in content
+vh- screen size
+overflow - defined height and width
+flex-flow = flex direction + flex wrap
+

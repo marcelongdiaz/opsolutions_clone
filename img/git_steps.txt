@@ -1,0 +1,16 @@
+Login github
+Create Repository
+Type Project name
+git init
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/marcelongdiaz/portfolio.git
+git push -u origin master
+
+history > reverse commit = relete 
+
+production
+staging
+develop

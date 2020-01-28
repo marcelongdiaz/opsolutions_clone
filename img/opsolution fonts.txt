@@ -1,0 +1,64 @@
+header nav 
+13px
+font-family:     font-family: "Avenir Light", sans-serif;
+
+banner h2
+48px
+font-family: "Avenir Black", sans-serif;
+
+banner p
+0.9em
+font-family: "Avenir Light", sans-serif;
+
+h3 per section: About us/ Solutions/Customers/Contact/Events/Careers
+font-family
+32px
+font-family: "Avenir Black", sans-serif;
+
+h3 per section: About us/ Solutions/Customers/Contact/Events/Careers
+0.9em
+font-family: "Avenir Light", sans-serif;
+line-height: 24px;
+
+Our Mission h4 card title
+19px
+font-family: "Avenir Black", sans-serif;
+
+Our Vision || What we do ,bridge title
+29px
+font-family: "Avenir Light", sans-serif;
+
+Our Vision || What we do ,bridge button
+24px
+font-family: "Avenir Light", sans-serif;0
+
+What we do card Title h4
+19px
+font-family: "Avenir Black", sans-serif;
+
+What out Client say || Testimonials quote
+13.7px
+font-family: "Avenir Light", sans-serif;
+
+What out Client say || Testimonials quote
+15px
+font-family: "Avenir Black", sans-serif;
+
+Contact
+title
+21 px
+font-family: "Avenir Light", sans-serif;
+
+gradient
+background: linear-gradient( to right, #11CEC4, #00A1C6 ) left bottom no-repeat;
+
+button gradient
+background: linear-gradient(to right, #11CEC4, #00A1C6);
+background: linear-gradient(to right, #11CEC4, #00A1C6);
+
+
+
+
+
+ 
+
