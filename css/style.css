@@ -1,6 +1,6 @@
 
 body{
-    background: whitesmoke;
+    background: white;
     font-family: "Avenir Light", "Sans serif";
     font-size: 1rem;
     color: #2D2D2E;
@@ -60,9 +60,6 @@ header img{
     width: 90%;
     background: linear-gradient( to right, #11CEC4, #00A1C6 ) left bottom no-repeat;
 }
-.nav-custom li:hover, .nav-active{
-    font-weight: 600;
-}
 #banner{
     overflow: hidden;
 }
@@ -76,9 +73,9 @@ header img{
 .pos-abs{
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
 }
 .banner img{
     background-attachment: fixed;
@@ -125,10 +122,21 @@ h2{
     -webkit-text-stroke-width: 0.7px;
    color:transparent;
 }
+#banner-carousel button, #about button, #contact button{
+    background: linear-gradient( to right, #11CEC4, #00A1C6 ) left bottom no-repeat;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#banner-carousel button:hover, #about button:hover, #contact button:hover{
+    background: white;
+    color: #1799ff;
+    border: 1px solid #1799ff;
+}
 .bg-ops{
     background: linear-gradient( to right, #11CEC4, #00A1C6 ) left bottom no-repeat;
     border: transparent;
     display: block;
+}
+.custom-p-1035{
     padding: 10px 35px;
 }
 .bg-ops *{
@@ -221,7 +229,7 @@ h2{
     max-width: 83%;
 }
 section{
-    padding: 60px 0 40px;
+    padding: 60px 0 70px;
 }
 #vision{
     padding: 60px 0 40px;
@@ -243,6 +251,12 @@ section{
     background-size: cover;
     overflow: hidden;
 }
+.bridge2{
+    background:url(../img/bridge-image-2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 .bridge-content{
     font-size: 29px;
     font-weight: 550;
@@ -251,8 +265,10 @@ section{
     padding: 80px 0;
     text-align: center;
 }
+
 .bridge-content a{
     font-size: 23px;
+    text-decoration: none;
 }
 .btn-bridge-hire{
     box-sizing: border-box;
@@ -261,6 +277,12 @@ section{
     border: 1px solid white;
     color: inherit;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-bridge-hire:hover{
+    border: 1px solid #179aff00;
+    background: white;
+    color: #1799ff;;
 }
 #services{
     background: #F5FDFF;
@@ -284,6 +306,10 @@ h3.section-header-lead{
     position: relative;
     font-family: "Avenir Black", "Sans serif";
     margin: 60px 0 0 0 ;
+}
+.font-small{
+    font-size: 15px!important;
+    font-family: "Avenir Light", "Sans serif"!important;
 }
 .header-leading-text{
     padding-bottom: 30px;
@@ -325,6 +351,8 @@ h3.section-header-lead{
 }
 .custom-grid-item img{
     height: 100%;
+    transition:all 0.5s ease;
+    cursor: pointer;
     width: 100%;
 }
 .custom-grid-item:nth-child(1){
@@ -364,6 +392,7 @@ h3.section-header-lead{
     box-sizing: border-box;
     padding: 15px 20px 20px;
     position: absolute;
+    display: none;
     right: 0;
     width: 98%;
     bottom: 10px;
@@ -486,5 +515,40 @@ iframe.custom-map{
     font-size: 21px;
     font-family: "Avenir Black", "Sans serif";
 }
+.p-custom-footer{
+    padding: 40px 30px 0 30px;
+}
+footer{
+    padding-bottom:40px;
+    font-size: 14px;
+}
+.ops-btn:hover{
+    color: #1799ff;
+    background: #fff;
+}
+.delay-05{
+    animation-delay: 0.5s;
+}
+.delay-04{
+    animation-delay: 0.4s;
+}
+.delay-03{
+    animation-delay: 0.3s;
+}
+.delay-02{
+    animation-delay: 0.2s;
+}
+.delay-01{
+    animation-delay: 0.1s;
+}
+.custom-grid-item:hover > img{
+    transform: scale(1.2);
+}
+.custom-grid-item:hover > div.custom-grid-label{
+    display: block;
+}
+
+
+
 
 
