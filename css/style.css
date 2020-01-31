@@ -297,6 +297,7 @@ section{
 #services .card-container{
     background: white;
     padding: 20px 15px 5px 15px;
+    min-height: 216px;
 }
 h3.section-header-lead{
     font-size: 32px;
@@ -547,6 +548,10 @@ footer{
 .custom-grid-item:hover > div.custom-grid-label{
     display: block;
 }
+.section-block{
+    /* visibility: hidden; */
+}
+
 
 
 
