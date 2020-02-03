@@ -1,3 +1,60 @@
-@media screen and (min-width: 800px){
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .custom-grid-item{
+        width: 100%;
+    }
+    .custom-grid{
+        display: block;
+        height: auto;
+    }
+    nav ul{
+        padding-top: 15px;
+    }
+    li.nav-item{
+        text-transform: uppercase;
+        padding: 15px 0px;
+        
+    }
+    li.nav-item.active{
+        color: black!important;
+    }
+    .nav-item a{
+        color: rgba(0, 0, 0, 0.678)!important;
+    }
+    .carousel-inner{
+        overflow: auto;
+    }
+    #banner h2 {
+        font-family: "Avenir Black", sans-serif;
+        font-size: 29px;
+        color: #2D2D2E;
+        margin: 0 0 30px 0;
+    }
+    #banner p{
+        font-size: 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 
 }

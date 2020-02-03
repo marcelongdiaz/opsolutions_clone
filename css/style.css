@@ -32,19 +32,31 @@ header img{
     font-weight: 500;
     padding-right: 60px;
 }
+.navbar-toggler{
+    background: linear-gradient(to right, #11CEC4, #00A1C6);
+}
+.navbar-toggler i{
+    color: #fff;
+    text-align: center !important;
+}
 .clearfix::after{
     content:"";
     display: table;
     clear: both;
 }
-.nav-custom a{
+.nav-item a{
     color: black;
     outline: none;
     font-size: 13px;
+    font-weight: 600;
     padding: 0 27px 10px 27px;
+    
 }
-.nav-custom li{
+li.nav-item{
     position: relative;
+    margin-left: 10px;
+    width: 90px;
+    
 }
 .custom-getstarted span{
     background: white;
@@ -551,7 +563,9 @@ footer{
 .section-block{
     /* visibility: hidden; */
 }
-
+.navbar-nav .active>.nav-link{
+    color: green!important;
+}
 
 
 
